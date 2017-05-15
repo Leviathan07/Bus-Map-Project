@@ -1,0 +1,75 @@
+# Bus-Map-Project
+ //Đà Nẵng - Phú Đa
+        LatLng NHCD = new LatLng(16.079942, 108.210789);
+        mMap.addMarker(new MarkerOptions().position(NHCD).title("Nhà hàng Công Đoàn"));
+
+        LatLng OIK6 = new LatLng(16.078911, 108.211679);
+        mMap.addMarker(new MarkerOptions().position(OIK6).title("6 Ông Ích Khiêm"));
+
+        LatLng OIK32 = new LatLng(16.077921, 108.211979);
+        mMap.addMarker(new MarkerOptions().position(OIK32).title("32 Ông Ích Khiêm"));
+
+        LatLng OIK81 = new LatLng(16.075024, 108.212558);
+        mMap.addMarker(new MarkerOptions().position(OIK81).title("81 Ông Ích Khiêm"));
+
+        LatLng OIK101 = new LatLng(16.074519, 108.212687);
+        mMap.addMarker(new MarkerOptions().position(OIK101).title("101 Ông Ích Khiêm"));
+
+        LatLng TC3 = new LatLng(16.070241, 108.213486);
+
+        LatLng HC = new LatLng(16.070436, 108.214382);
+        mMap.addMarker(new MarkerOptions().position(HC).title("Hải Châu"));
+
+        LatLng TC4 = new LatLng(16.070545, 108.215106);
+
+        LatLng CL68 = new LatLng(16.068518, 108.215551);
+        mMap.addMarker(new MarkerOptions().position(CL68).title("68 Chi Lăng"));
+
+        LatLng TC5 = new LatLng(16.067638, 108.215857);
+
+        LatLng CC = new LatLng(16.067394, 108.214628);
+        mMap.addMarker(new MarkerOptions().position(CC).title("Chợ Cồn"));
+
+        LatLng LTC93 = new LatLng(16.066153, 108.207952);
+        mMap.addMarker(new MarkerOptions().position(CC).title("93 Lý Thái Tổ"));
+
+        LatLng LTC130 = new LatLng(16.066181, 108.207486);
+        mMap.addMarker(new MarkerOptions().position(CC).title("130 Lý Thái Tổ"));
+
+        LatLng NTT617 = new LatLng(16.073374, 108.201947);
+        mMap.addMarker(new MarkerOptions().position(NTT617).title("617 Nguyễn Tất Thành"));
+
+        LatLng NTT735 = new LatLng(16.072593, 108.197712);
+        mMap.addMarker(new MarkerOptions().position(NTT735).title("735 Nguyễn Tất Thành"));
+
+        LatLng NTT921 = new LatLng(16.072570, 108.192806);
+        mMap.addMarker(new MarkerOptions().position(NTT921).title("921 Nguyễn Tất Thành"));
+
+        LatLng TC6 = new LatLng(16.072611, 108.191923);
+
+        LatLng HHT37 = new LatLng(16.069127, 108.191937);
+        mMap.addMarker(new MarkerOptions().position(HHT37).title("37 Hà Huy Tập"));
+
+        LatLng HHT60 = new LatLng(16.068828, 108.191830);
+        mMap.addMarker(new MarkerOptions().position(HHT60).title("60 Hà Huy Tập"));
+
+        LatLng TC7 = new LatLng(16.065953, 108.192067);
+
+        LatLng DBP412 = new LatLng(16.066013, 108.189384);
+        mMap.addMarker(new MarkerOptions().position(DBP412).title("412 Điện Biên Phủ"));
+
+        LatLng DBP568 = new LatLng(16.065615, 108.184194);
+        mMap.addMarker(new MarkerOptions().position(DBP568).title("568 Điện Biên Phủ"));
+
+        LatLng TDT145 = new LatLng(16.065615, 108.184194);
+        mMap.addMarker(new MarkerOptions().position(DBP568).title("145 Tôn Đức Thắng"));
+
+        LatLng TC8 = new LatLng(16.057274, 108.172264);
+
+        LatLng BXTT = new LatLng(16.056531, 108.172542);
+        mMap.addMarker(new MarkerOptions().position(BXTT).title("Bến xe Trung tâm Đà Nẵng"));
+
+        PolylineOptions DN_PD=new  PolylineOptions().add(CC).add(TC5).add(CL68).add(TC4).add(HC).add(TC3).add(OIK101).add(OIK81).add(OIK32).add(OIK6).add(NHCD)
+                .add(NTT617).add(NTT735).add(NTT921).add(TC6).add(HHT37).add(HHT60).add(TC7).add(DBP412).add(DBP568).add(TDT145).add(TC8).add(BXTT);
+        Polyline polyline4= googleMap.addPolyline(DN_PD);
+        polyline4.setColor(Color.YELLOW);
