@@ -1,0 +1,44 @@
+# Bus-Map-Project
+LatLng OIK522 = new LatLng(16.063904, 108.215219);
+        mMap.addMarker(new MarkerOptions().position(OIK522).title("522 Ông Ích Khiêm"));
+
+        LatLng OIK419 = new LatLng(16.062904, 108.215863);
+        mMap.addMarker(new MarkerOptions().position(OIK419).title("419 Ông Ích Khiêm"));
+
+        LatLng HD199 = new LatLng(16.059883, 108.217226);
+        mMap.addMarker(new MarkerOptions().position(HD199).title("199 Hoàng Diệu"));
+
+        LatLng HD310 = new LatLng(16.058007, 108.217022);
+        mMap.addMarker(new MarkerOptions().position(HD310).title("310 Hoàng Diệu"));
+
+        LatLng HD315 = new LatLng(16.056450, 108.217119);
+        mMap.addMarker(new MarkerOptions().position(HD315).title("315 Hoàng Diệu"));
+
+        LatLng TNV306 = new LatLng(16.052790, 108.218042);
+        mMap.addMarker(new MarkerOptions().position(HD199).title("TNV306 Trưng Nữ Vương"));
+
+        LatLng GXHT = new LatLng(16.053336, 108.218686);
+        mMap.addMarker(new MarkerOptions().position(HD199).title("Giáo xứ Hòa Thuận"));
+
+        LatLng NuT21 = new LatLng(16.053161, 108.220349);
+        mMap.addMarker(new MarkerOptions().position(NuT21).title("21 Núi Thành"));
+
+        LatLng NuT149 = new LatLng(16.048805, 108.220942);
+        mMap.addMarker(new MarkerOptions().position(NuT149).title("149 Núi Thành"));
+
+        LatLng NuT161 = new LatLng(16.046966, 108.221006);
+        mMap.addMarker(new MarkerOptions().position(NuT161).title("161 Núi Thành"));
+
+        LatLng NuT380 = new LatLng(16.039341, 108.221890);
+        mMap.addMarker(new MarkerOptions().position(NuT380).title("380 Núi Thành"));
+
+        LatLng NuT567 = new LatLng(16.032539, 108.222815);
+        mMap.addMarker(new MarkerOptions().position(NuT567).title("567 Núi Thành"));
+
+        LatLng NuT582 = new LatLng(16.031197, 108.222706);
+        mMap.addMarker(new MarkerOptions().position(NuT582).title("582 Núi Thành"));
+
+        PolylineOptions AN_DN=new  PolylineOptions().add(OIK6).add(OIK32).add(OIK81).add(OIK522).add(OIK419).add(HD199).add(HD310).add(HD315).add(TNV306)
+                .add(GXHT).add(NuT21).add(NuT149).add(NuT161).add(NuT380).add(NuT567).add(NuT582);
+        Polyline polyline6= googleMap.addPolyline(AN_DN);
+        polyline6.setColor(Color.CYAN);
