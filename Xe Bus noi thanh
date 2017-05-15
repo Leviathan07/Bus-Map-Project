@@ -1,0 +1,73 @@
+# Bus-Map-Project
+//Xe bus nội thành
+        LatLng NVT = new LatLng(16.075540, 108.223913);
+        mMap.addMarker(new MarkerOptions().position(BXTT).title("Novotel Quang Trung"));
+
+        LatLng LD5 = new LatLng(16.071626, 108.224054);
+        mMap.addMarker(new MarkerOptions().position(LD5).title("5 Lê Duẫn"));
+
+        LatLng LD10 = new LatLng(16.071647, 108.222273);
+        mMap.addMarker(new MarkerOptions().position(LD10).title("10 Lê Duẫn"));
+
+        LatLng LD299 = new LatLng(16.069534, 108.210332);
+        mMap.addMarker(new MarkerOptions().position(LD299).title("299 Lê Duẫn"));
+
+        LatLng LD312 = new LatLng(16.069142, 108.209602);
+        mMap.addMarker(new MarkerOptions().position(LD312).title("312 Lê Duẫn"));
+
+        LatLng LD437 = new LatLng(16.067039, 108.207585);
+        mMap.addMarker(new MarkerOptions().position(LD437).title("437 Lê Duẫn"));
+
+        LatLng LD456 = new LatLng(16.066606, 108.207016);
+        mMap.addMarker(new MarkerOptions().position(LD456).title("456 Lê Duẫn"));
+
+        LatLng DBP38 = new LatLng(16.065967, 108.205546);
+        mMap.addMarker(new MarkerOptions().position(DBP38).title("38 Điện Biên Phủ"));
+
+        LatLng STNK = new LatLng(16.066173, 108.203314);
+        mMap.addMarker(new MarkerOptions().position(STNK).title("Siêu thị Nguyễn Kim"));
+
+        LatLng DBP336 = new LatLng(16.065894, 108.192928);
+        mMap.addMarker(new MarkerOptions().position(DBP336).title("336 Điện Biên Phủ"));
+
+        LatLng TC9 = new LatLng(16.065941, 108.192073);
+
+        LatLng TC10 = new LatLng(16.067828, 108.192073);
+
+        LatLng TC11 = new LatLng(16.071241, 108.191719);
+
+        LatLng QT202 = new LatLng(16.073369, 108.213206);
+        mMap.addMarker(new MarkerOptions().position(QT202).title("202 Quang Trung"));
+
+        LatLng TCV24 = new LatLng(16.073204, 108.212262);
+        mMap.addMarker(new MarkerOptions().position(TCV24).title("24 Trần Cao Vân"));
+
+        LatLng TCV158 = new LatLng(16.072317, 108.208228);
+        mMap.addMarker(new MarkerOptions().position(TCV158).title("158 Trần Cao Vân"));
+
+        LatLng THD = new LatLng(16.072379, 108.207960);
+        mMap.addMarker(new MarkerOptions().position(THD).title("Trường Hoàng Diệu"));
+
+        LatLng TCV184 = new LatLng(16.072193, 108.207091);
+        mMap.addMarker(new MarkerOptions().position(TCV184).title("184 Trần Cao Vân"));
+
+        LatLng TCV230 = new LatLng(16.071884, 108.205975);
+        mMap.addMarker(new MarkerOptions().position(TCV230).title("230 Trần Cao Vân"));
+
+        LatLng TCV312 = new LatLng(16.071234, 108.202209);
+        mMap.addMarker(new MarkerOptions().position(TCV312).title("312 Trần Cao Vân"));
+
+        LatLng TCV189 = new LatLng(16.071172, 108.201941);
+        mMap.addMarker(new MarkerOptions().position(TCV189).title("189 Trần Cao Vân"));
+
+        LatLng TCV428 = new LatLng(16.071090, 108.198336);
+        mMap.addMarker(new MarkerOptions().position(TCV428).title("428 Trần Cao Vân"));
+
+        LatLng TCV570 = new LatLng(16.071265, 108.193315);
+        mMap.addMarker(new MarkerOptions().position(TCV570).title("570 Trần Cao Vân"));
+
+        PolylineOptions XBNT=new  PolylineOptions().add(NVT).add(LD5).add(LD10).add(LD299).add(LD299).add(LD312).add(LD437).add(LD456)
+                .add(DBP38).add(STNK).add(DBP336).add(TC9).add(TC10).add(HHT60).add(HHT37).add(TC11).add(TCV570).add(TCV428).add(TCV189)
+                .add(TCV312).add(TCV230).add(TCV184).add(THD).add(TCV158).add(TCV24).add(QT202).add(NVT);
+        Polyline polyline5= googleMap.addPolyline(XBNT);
+        polyline5.setColor(Color.GRAY);
