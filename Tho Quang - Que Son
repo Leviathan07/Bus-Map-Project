@@ -1,0 +1,66 @@
+LatLng GXST = new LatLng(16.101709, 108.248565);
+        mMap.addMarker(new MarkerOptions().position(GXST).title("Giáo xứ Sơn Trà"));
+
+        LatLng NPV4 = new LatLng(16.101689, 108.249006);
+        mMap.addMarker(new MarkerOptions().position(NPV4).title("4 Nguyễn Phan Vinh"));
+
+        LatLng NQ33 = new LatLng(16.100554, 108.247256);
+        mMap.addMarker(new MarkerOptions().position(NQ33).title("33 Ngô Quyền"));
+
+        LatLng NQ35 = new LatLng(16.100560, 108.247034);
+        mMap.addMarker(new MarkerOptions().position(NQ35).title("35 Ngô Quyền"));
+
+        LatLng NQ118 = new LatLng(16.096076, 108.245027);
+        mMap.addMarker(new MarkerOptions().position(NQ118).title("118 Ngô Quyền"));
+
+        LatLng NQ113 = new LatLng(16.095179, 108.244834);
+        mMap.addMarker(new MarkerOptions().position(NQ113).title("113 Ngô Quyền"));
+
+        LatLng NQ310 = new LatLng(16.090030, 108.242164);
+        mMap.addMarker(new MarkerOptions().position(NQ310).title("310 Ngô Quyền"));
+
+        LatLng NQ253 = new LatLng(16.089587, 108.242250);
+        mMap.addMarker(new MarkerOptions().position(NQ253).title("253 Ngô Quyền"));
+
+        LatLng NQ442 = new LatLng(16.086396, 108.240349);
+        mMap.addMarker(new MarkerOptions().position(NQ442).title("442 Ngô Quyền"));
+
+        LatLng NQ446 = new LatLng(16.086211, 108.240360);
+        mMap.addMarker(new MarkerOptions().position(NQ446).title("446 Ngô Quyền"));
+
+        LatLng NQ570 = new LatLng(16.083603, 108.237485);
+        mMap.addMarker(new MarkerOptions().position(NQ570).title("57 Ngô Quyền"));
+
+        LatLng NQ578 = new LatLng(16.083283, 108.237678);
+        mMap.addMarker(new MarkerOptions().position(NQ578).title("578 Ngô Quyền"));
+
+        LatLng NQ692 = new LatLng(16.081211, 108.235167);
+        mMap.addMarker(new MarkerOptions().position(NQ692).title("692 Ngô Quyền"));
+
+        LatLng NQ463 = new LatLng(16.080961, 108.234867);
+        mMap.addMarker(new MarkerOptions().position(NQ463).title("463 Ngô Quyền"));
+
+        LatLng NQ575 = new LatLng(16.078304, 108.232657);
+        mMap.addMarker(new MarkerOptions().position(NQ575).title("575 Ngô Quyền"));
+
+        LatLng TLNQ = new LatLng(16.077376, 108.231552);
+        mMap.addMarker(new MarkerOptions().position(TLNQ).title("Trường Tiểu học Tiểu La"));
+
+        LatLng NQ486 = new LatLng(16.074654, 108.230393);
+        mMap.addMarker(new MarkerOptions().position(NQ486).title("486 Ngô Quyền"));
+
+        LatLng NQ739 = new LatLng(16.070953, 108.231240);
+        mMap.addMarker(new MarkerOptions().position(NQ739).title("739 Ngô Quyền"));
+
+        LatLng NQ755 = new LatLng(16.069974, 108.231444);
+        mMap.addMarker(new MarkerOptions().position(NQ755).title("755 Ngô Quyền"));
+
+        LatLng NQ926 = new LatLng(16.066345, 108.232818);
+        mMap.addMarker(new MarkerOptions().position(NQ926).title("926 Ngô Quyền"));
+
+        //Tho Quang - Que Son
+        PolylineOptions TQ_QS=new  PolylineOptions().add(busTQ).add(GXST).add(NQ33).add(NQ35).add(NQ118).add(NQ113).add(NQ310)
+                .add(NQ253).add(NQ442).add(NQ446).add(NQ570).add(NQ578).add(NQ692).add(NQ463).add(NQ575).add(TLNQ).add(NQ486)
+                .add(NQ739).add(NQ755).add(NQ926);
+        Polyline polyline1= googleMap.addPolyline(TQ_QS);
+        polyline1.setColor(Color.RED);
