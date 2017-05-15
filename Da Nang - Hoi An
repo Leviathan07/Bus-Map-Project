@@ -1,0 +1,120 @@
+# Bus-Map-Project
+ //Da Nang - Hoi An
+        LatLng NHS34 = new LatLng(16.052630, 108.237034);
+        mMap.addMarker(new MarkerOptions().position(NHS34).title("34 Ngũ Hành Sơn"));
+
+        LatLng NHS29 = new LatLng(16.051753, 108.237356);
+        mMap.addMarker(new MarkerOptions().position(NHS29).title("29 Ngũ Hành Sơn"));
+
+        LatLng NHS178 = new LatLng(16.047918, 108.238440);
+        mMap.addMarker(new MarkerOptions().position(NHS178).title("178 Ngũ Hành Sơn"));
+
+        LatLng NHS240 = new LatLng(16.045650, 108.239277);
+        mMap.addMarker(new MarkerOptions().position(NHS240).title("240 Ngũ Hành Sơn"));
+
+        LatLng CDN = new LatLng(16.045003, 108.239935);
+        mMap.addMarker(new MarkerOptions().position(CDN).title("Cao Đẳng Nghề"));
+
+        LatLng NHS135 = new LatLng(16.043041, 108.240822);
+        mMap.addMarker(new MarkerOptions().position(NHS135).title("135 Ngũ Hành Sơn"));
+
+        LatLng NHS312 = new LatLng(16.042662, 108.240621);
+        mMap.addMarker(new MarkerOptions().position(NHS312).title("312 Ngũ Hành Sơn"));
+
+        LatLng NHS370 = new LatLng(16.039690, 108.242163);
+        mMap.addMarker(new MarkerOptions().position(NHS370).title("370 Ngũ Hành Sơn"));
+
+        LatLng NHS376 = new LatLng(16.039349, 108.242506);
+        mMap.addMarker(new MarkerOptions().position(NHS376).title("376 Ngũ Hành Sơn"));
+
+        LatLng LVH40 = new LatLng(16.036895, 108.243890);
+        mMap.addMarker(new MarkerOptions().position(LVH40).title("40 Lê Văn Hiến"));
+
+        LatLng LVH63 = new LatLng(16.033627, 108.245499);
+        mMap.addMarker(new MarkerOptions().position(LVH63).title("63 Lê Văn Hiến"));
+
+        LatLng LVH158 = new LatLng(16.032575, 108.245725);
+        mMap.addMarker(new MarkerOptions().position(LVH158).title("158 Lê Văn Hiến"));
+
+        LatLng LVH256 = new LatLng(16.029543, 108.247302);
+        mMap.addMarker(new MarkerOptions().position(LVH256).title("256 Lê Văn Hiến"));
+
+        LatLng LVH81B = new LatLng(16.029203, 108.247774);
+        mMap.addMarker(new MarkerOptions().position(LVH81B).title("81B Lê Văn Hiến"));
+
+        LatLng LVH376 = new LatLng(16.025450, 108.249415);
+        mMap.addMarker(new MarkerOptions().position(LVH376).title("376 Lê Văn Hiến"));
+
+        LatLng LVH384 = new LatLng(16.025161, 108.249802);
+        mMap.addMarker(new MarkerOptions().position(LVH384).title("384 Lê Văn Hiến"));
+
+        LatLng LVH470A = new LatLng(16.017736, 108.253235 );
+        mMap.addMarker(new MarkerOptions().position(LVH470A).title("470A Lê Văn Hiến"));
+
+        LatLng TTHC = new LatLng(16.016653, 108.254115);
+
+        LatLng LVH542 = new LatLng(16.010488, 108.256850);
+        mMap.addMarker(new MarkerOptions().position(LVH542).title("542 Lê Văn Hiến"));
+
+        LatLng LVH620 = new LatLng(16.007089, 108.258655);
+        mMap.addMarker(new MarkerOptions().position(LVH620).title("620 Lê Văn Hiến"));
+
+        LatLng NBHTCC = new LatLng(16.003182, 108.259757);
+        mMap.addMarker(new MarkerOptions().position(NBHTCC).title("Ngã ba Huyền Trân Công chúa"));
+
+        LatLng GDTX = new LatLng(16.001623, 108.259743);
+        mMap.addMarker(new MarkerOptions().position(GDTX).title("TTGD thường xuyên"));
+
+        LatLng TDN = new LatLng(15.993934, 108.258328);
+        mMap.addMarker(new MarkerOptions().position(TDN).title("Trần Đại Nghĩa"));
+
+        LatLng STLX = new LatLng(15.989118, 108.257427);
+        mMap.addMarker(new MarkerOptions().position(STLX).title("Sân tập lái xe"));
+
+        LatLng DNA = new LatLng(15.988746, 108.257331);
+
+        LatLng TDN21 = new LatLng(15.982692, 108.255753 );
+        mMap.addMarker(new MarkerOptions().position(TDN21).title("21 Trần Đại Nghĩa"));
+
+        LatLng BMHP = new LatLng(15.982234, 108.255966);
+        mMap.addMarker(new MarkerOptions().position(BMHP).title("Bánh mì Hoàng Phúc"));
+
+        LatLng CFNL = new LatLng(15.976524, 108.254627);
+        mMap.addMarker(new MarkerOptions().position(CFNL).title("Cà phê New Ly"));
+
+        LatLng ATTL = new LatLng(15.968132, 108.254675);
+        mMap.addMarker(new MarkerOptions().position(ATTL).title("CHTH Ân Thu TL 607"));
+
+        LatLng BIVI = new LatLng(15.963222, 108.254423 );
+        mMap.addMarker(new MarkerOptions().position(BIVI).title("CT TNHH MTV BIVI TL 607"));
+
+        LatLng HotelTK = new LatLng(15.959354, 108.254747);
+        mMap.addMarker(new MarkerOptions().position(HotelTK).title("Hotel Tân Khang"));
+
+        LatLng XMPS = new LatLng(15.953682, 108.254507);
+        mMap.addMarker(new MarkerOptions().position(XMPS).title("Xe máy Phước Sang"));
+
+        LatLng TVKP = new LatLng(15.952238, 108.254721);
+        mMap.addMarker(new MarkerOptions().position(TVKP).title("Tiệm vàng Kim Phát"));
+
+        LatLng XMDN = new LatLng(15.949795, 108.254621);
+        mMap.addMarker(new MarkerOptions().position(XMDN).title("Xe máy điện Ngọc"));
+
+        LatLng TTTP = new LatLng(15.947383, 108.254657);
+        mMap.addMarker(new MarkerOptions().position(TTTP).title("Tôn thép Trung Phát"));
+
+        LatLng DHNVHN = new LatLng(15.945319, 108.254910);
+        mMap.addMarker(new MarkerOptions().position(DHNVHN).title("Đại học Nội vụ Hà Nội"));
+
+        LatLng NBCX = new LatLng(15.941592, 108.254721);
+        mMap.addMarker(new MarkerOptions().position(NBCX).title("Ngã ba cây xoài"));
+
+        LatLng AVCB = new LatLng(15.939446, 108.254464);
+        mMap.addMarker(new MarkerOptions().position(AVCB).title("Ăn vặt cô Bình"));
+
+        PolylineOptions DN_HA=new  PolylineOptions().add(NHS34).add(NHS29).add(NHS178).add(NHS240).add(CDN).add(NHS135)
+                .add(NHS312).add(NHS370).add(NHS376).add(LVH40).add(LVH63).add(LVH158).add(LVH256).add(LVH81B).add(LVH376).add(LVH384)
+                .add(LVH470A).add(TTHC).add(LVH542).add(LVH620).add(NBHTCC).add().add(GDTX).add(TDN).add(STLX).add(DNA).add(TDN21)
+                .add(BMHP).add(CFNL).add(ATTL).add(BIVI).add(HotelTK).add(XMPS).add(TVKP).add(XMDN).add(TTTP).add(DHNVHN).add(NBCX).add(AVCB);
+        Polyline polyline2= googleMap.addPolyline(DN_HA);
+        polyline2.setColor(Color.BLUE);
