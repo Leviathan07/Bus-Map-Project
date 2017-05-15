@@ -1,0 +1,108 @@
+# Bus-Map-Project
+//Da Nang - Tam Ky
+        LatLng BTH129 = new LatLng(16.087254, 108.216259);
+        mMap.addMarker(new MarkerOptions().position(BTH129).title("129 đường 3/2 "));
+
+        LatLng BTH24 = new LatLng(16.084303, 108.221396);
+        mMap.addMarker(new MarkerOptions().position(BTH24).title("24 đường 3/2 "));
+
+        LatLng DD26 = new LatLng(16.082279, 108.220647);
+        mMap.addMarker(new MarkerOptions().position(DD26).title("26 Đống Đa "));
+
+        LatLng DD106 = new LatLng(16.081011, 108.218684);
+        mMap.addMarker(new MarkerOptions().position(DD106).title("106 Đống Đa "));
+
+        LatLng DD240 = new LatLng(16.077392, 108.216409);
+        mMap.addMarker(new MarkerOptions().position(DD240).title("24 Đống Đa "));
+
+        LatLng NTMK4 = new LatLng(16.076350, 108.217761);
+        mMap.addMarker(new MarkerOptions().position(NTMK4).title("4 Nguyễn Thị Minh Khai"));
+
+        LatLng NTMK51 = new LatLng(16.069062, 108.218984);
+        mMap.addMarker(new MarkerOptions().position(NTMK51).title("51 Nguyễn Thị Minh Khai"));
+
+        LatLng HV59 = new LatLng(16.068557, 108.220089);
+        mMap.addMarker(new MarkerOptions().position(HV59).title("59 Hùng Vương"));
+
+        LatLng CT = new LatLng(16.068369, 108.219165);
+
+        LatLng PCT92 = new LatLng(16.065600, 108.220000);
+        mMap.addMarker(new MarkerOptions().position(PCT92).title("92 Phan Chu Trinh"));
+
+        LatLng PCT176 = new LatLng(16.062043, 108.219653);
+        mMap.addMarker(new MarkerOptions().position(PCT176).title("176 Phan Chu Trinh"));
+
+        LatLng CPN = new LatLng(16.060950, 108.217936);
+        mMap.addMarker(new MarkerOptions().position(CPN).title("Chùa Phước Ninh"));
+
+        LatLng NVL153 = new LatLng(16.060507, 108.215082);
+        mMap.addMarker(new MarkerOptions().position(NVL153).title("153 Nguyễn Văn Linh"));
+
+        LatLng NVL248 = new LatLng(16.059939, 108.209935);
+        mMap.addMarker(new MarkerOptions().position(NVL248).title("248 Nguyễn Văn Linh"));
+
+        LatLng NTP220 = new LatLng(16.058320, 108.206244);
+        mMap.addMarker(new MarkerOptions().position(NTP220).title("220 Nguyễn Tri Phương"));
+
+        LatLng NHT17 = new LatLng(16.054103, 108.208272);
+        mMap.addMarker(new MarkerOptions().position(NHT17).title("17 Nguyễn Hữu Thọ"));
+
+        LatLng NHT91 = new LatLng(16.053278, 108.208948);
+        mMap.addMarker(new MarkerOptions().position(NHT91).title("91 Nguyễn Hữu Thọ"));
+
+        LatLng NHT38 = new LatLng(16.049216, 108.209313);
+        mMap.addMarker(new MarkerOptions().position(NHT38).title("38 Nguyễn Hữu Thọ"));
+
+        LatLng NHT134 = new LatLng(16.044875, 108.209871);
+        mMap.addMarker(new MarkerOptions().position(NHT134).title("134 Nguyễn Hữu Thọ"));
+
+        LatLng NHT = new LatLng(16.037936, 108.210397);
+        mMap.addMarker(new MarkerOptions().position(NHT).title("Nguyễn Hữu Thọ"));
+
+        LatLng NHT300 = new LatLng(16.036214, 108.209775);
+        mMap.addMarker(new MarkerOptions().position(NHT300).title("300 Nguyễn Hữu Thọ"));
+
+        LatLng NHT356 = new LatLng(16.034801, 108.209475);
+        mMap.addMarker(new MarkerOptions().position(NHT356).title("356 Nguyễn Hữu Thọ"));
+
+        LatLng NHT515 = new LatLng(16.032914, 108.209142);
+        mMap.addMarker(new MarkerOptions().position(NHT515).title("515 Nguyễn Hữu Thọ"));
+
+        LatLng VTP  = new LatLng(16.030429, 108.208455);
+        mMap.addMarker(new MarkerOptions().position(VTP).title("Viettronimex Plaza "));
+
+        LatLng CHXD = new LatLng(16.029728, 108.208777);
+        mMap.addMarker(new MarkerOptions().position(CHXD).title("Cửa hàng xăng dầu"));
+
+        LatLng TBA = new LatLng(16.028429, 108.208831);
+        mMap.addMarker(new MarkerOptions().position(TBA).title("Trạm biến áp Bình Hòa"));
+
+        LatLng CT2 = new LatLng(16.024687, 108.209283);
+
+        LatLng NHT676 = new LatLng(16.021406, 108.210476);
+        mMap.addMarker(new MarkerOptions().position(NHT676).title("676 Nguyễn Hữu Thọ"));
+
+        LatLng CT3 = new LatLng(16.020237, 108.211057);
+
+        LatLng CM151 = new LatLng(16.019354, 108.209746);
+        mMap.addMarker(new MarkerOptions().position(CM151).title("151 Cách mạng tháng 8"));
+
+        LatLng CT4 = new LatLng(16.016963, 108.204711);
+
+        LatLng OID60 = new LatLng(16.016480, 108.204883);
+        mMap.addMarker(new MarkerOptions().position(OID60).title("60 Ông Ích Đường"));
+
+        LatLng OID171 = new LatLng(16.016066, 108.205108);
+        mMap.addMarker(new MarkerOptions().position(OID171).title("171 Ông Ích Đường"));
+
+        LatLng OID225 = new LatLng(16.014480, 108.205494);
+        mMap.addMarker(new MarkerOptions().position(OID225).title("225 Ông Ích Đường"));
+
+        LatLng OID297 = new LatLng(16.012116, 108.205545);
+        mMap.addMarker(new MarkerOptions().position(OID297).title("297 Ông Ích Đường"));
+
+        PolylineOptions DN_TK=new  PolylineOptions().add(BTH129).add(BTH24).add(DD26).add(DD106).add(DD240).add(NTMK4).add(NTMK51).add(CT).add(HV59)
+                .add(PCT92).add(PCT176).add(CPN).add(NVL153).add(NVL248).add(NTP220).add(NHT17).add(NHT91).add(NHT38).add(NHT134).add(NHT).add(NHT300)
+                .add(NHT356).add(NHT515).add(VTP).add(CHXD).add(TBA).add(CT2).add(NHT676).add(CT3).add(CM151).add(CT4).add(OID60).add(OID171).add(OID225).add(OID297);
+        Polyline polyline3= googleMap.addPolyline(DN_TK);
+        polyline3.setColor(Color.GREEN);
